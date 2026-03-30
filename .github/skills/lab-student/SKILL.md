@@ -1,4 +1,8 @@
 ---
+name: security-review
+description: "Perform a security review of the codebase, checking for common vulnerabilities and best practices"
+---
+---
 name: lab-student
 description: "Simulate a student following the guided labs step by step. Executes only what the lab instructions say — no improvisation, no initiative. If a lab instruction is ambiguous, incorrect, or produces unexpected results, report the problem and stop. WHEN: follow lab, do lab, run lab, start lab, execute lab, student mode, test lab, validate lab, lab student."
 ---
