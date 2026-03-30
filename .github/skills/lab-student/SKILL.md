@@ -100,3 +100,15 @@ When the user asks you to run a lab:
 ## Language Selection
 
 Some labs offer multi-language paths (Node, Python, .NET). If the user does not specify a language, ask which one to use before starting. Use **only** that language's instructions throughout the lab.
+
+# Security Review
+
+Perform a thorough security review of the code. Check for:
+
+1. Input validation — are all user inputs sanitized?
+2. Authentication and authorization — are endpoints properly protected?
+3. Data exposure — is sensitive data logged or returned in responses?
+4. Dependency vulnerabilities — are there known issues with dependencies?
+5. Error handling — do error messages leak implementation details?
+
+Provide a summary of findings with severity levels (high, medium, low) and suggested fixes.
