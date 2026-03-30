@@ -1,4 +1,4 @@
-Lab Student
+Naim Opardija
 
 # Creating Apps with GitHub — AI Experiment Log
 

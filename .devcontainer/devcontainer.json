@@ -1,15 +1,21 @@
 {
   "name": "Creating Apps with GitHub",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
         "GitHub.copilot",
-        "GitHub.copilot-chat"
+        "GitHub.copilot-chat",
+        "dbaeumer.vscode-eslint"
       ],
       "settings": {
         "editor.formatOnSave": true
       }
     }
-  }
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "cd node && npm install"
 }
